@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word counter</title>
+    <style>
+      .container {
+        padding: 30px;
+        align-items: center;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(76, 81, 211);
+        color: white;
+        padding: 10px;
+        margin: 0px;
+      }
+      #textbox {
+        width: 99.3%;
+        border-color: rgb(67, 49, 160);
+        border-width: 5px;
+      }
+      p {
+        text-align: center;
+        background-color: rgb(76, 81, 211);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Word and document counter</h1>
+      <p>
+        <textarea id="textbox" cols="30" rows="10"></textarea>
+        <span class="word">0</span> Words and
+        <span class="char">0</span> characters
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
